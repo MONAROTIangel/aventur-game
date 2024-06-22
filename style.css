@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background: url('https://i.pinimg.com/564x/d2/68/94/d26894c9126b55660a03e9e44c4a808b.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#story-container {
+  background: rgb(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+#choices button {
+  background: #430872;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#choices button:hover {
+  background: #003166;
+}
